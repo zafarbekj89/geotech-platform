@@ -21,6 +21,8 @@ const Navbar = () => {
             <Link to="/products" className="text-gray-700 hover:text-brand-primary transition">Products</Link>
             <Link to="/about" className="text-gray-700 hover:text-brand-primary transition">About</Link>
             <Link to="/contact" className="text-gray-700 hover:text-brand-primary transition">Contact</Link>
+            <Link to="/progress" className="text-gray-700 hover:text-brand-primary transition">📊 Progress</Link>
+            <Link to="/studio" className="text-gray-700 hover:text-brand-primary transition">💻 Studio</Link>
           </div>
 
           {/* CTA Buttons */}
@@ -53,6 +55,8 @@ const Navbar = () => {
             <Link to="/products" className="block px-2 py-2 hover:bg-gray-100 rounded">Products</Link>
             <Link to="/about" className="block px-2 py-2 hover:bg-gray-100 rounded">About</Link>
             <Link to="/contact" className="block px-2 py-2 hover:bg-gray-100 rounded">Contact</Link>
+            <Link to="/progress" className="block px-2 py-2 hover:bg-gray-100 rounded">📊 Progress</Link>
+            <Link to="/studio" className="block px-2 py-2 hover:bg-gray-100 rounded">💻 Studio</Link>
             <button className="w-full mt-2 px-4 py-2 bg-brand-primary text-white rounded-lg">Sign Up</button>
           </div>
         )}
